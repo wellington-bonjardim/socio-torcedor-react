@@ -1,5 +1,5 @@
-import Beneficios from "./pages/Beneficios";
-import SejaSocio from "./pages/SejaSocio";
+import Beneficios from "./paginas/Beneficios";
+import SejaSocio from "./paginas/SejaSocio";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 

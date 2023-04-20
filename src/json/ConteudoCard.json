@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "plano": "BRANCO",
+    "preco": "R$19.90",
+    "valorIngresso": "A partir de 50% de desconto nos ingressos (jogos em casa)",
+    "kit": "Kit anual BRANCO",
+    "descontos": "10% de desconto em todas as compras na nossa loja online oficial",
+    "nivel": "Nível 1 de pontos para trocar por produtos e experiências"
+  },
+  {
+    "id": 2,
+    "plano": "PRETO",
+    "preco": "R$39.90",
+    "valorIngresso": "A partir de 60% de desconto nos ingressos (jogos em casa)",
+    "kit": "Kit anual PRETO",
+    "descontos": "10% de desconto nas compras na nossa loja online",
+    "nivel": "Nível 2 de pontos para trocar por produtos e experiências"
+  },
+  {
+    "id": 3,
+    "plano": "ALVINEGRO",
+    "preco": "R$79.90",
+    "valorIngresso": "A partir de 80% de desconto nos ingressos (jogos em casa)",
+    "kit": "Kit anual ALVINEGRO",
+    "descontos": "15% de desconto nas compras na nossa loja online",
+    "nivel": "Nível 3 de pontos para trocar por produtos e experiências"
+  },
+  {
+    "id": 4,
+    "plano": "GLORIOSO",
+    "preco": "R$149.90",
+    "valorIngresso": "Check-in gratuito (jogos em casa)",
+    "kit": "Kit anual GLORIOSO",
+    "descontos": "20% de desconto nas compras na nossa loja online",
+    "nivel": "Nível 4 de pontos para trocar por produtos e experiências"
+  }
+]
