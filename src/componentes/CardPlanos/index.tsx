@@ -1,30 +1,36 @@
 import './CardPlanos.module.css'
-import { Conteudo } from 'types/Conteudo';
+// import { IConteudoCard } from 'interfaces/Conteudo';
+import listaConteudo from 'json/ConteudoCard.json'
 
-export default function CardPlanos({
-  plano,
-  preco,
-  valorIngresso,
-  kit,
-  descontos,
-  nivel
-}: Conteudo) {
+interface IConteudoCard {
+  id: number
+  plano: string
+  preco: string
+  valorIngresso: string
+  kit: string
+  descontos: string
+  nivel: string
+}
+
+const CardPlanos = (props: IConteudoCard) => {
   return (
     <div className='principal'>
       <div className='card'>
-      <h5>{plano}</h5>
-      <h1>{preco}</h1>
+      <h5>{props.plano}</h5>
+      <h1>{props.preco}</h1>
       <div className='divider'>DIVIDER</div>
-      <p>{valorIngresso}</p>
+      <p>{props.valorIngresso}</p>
       <div className='divider'>DIVIDER</div>
-      <p>{kit}</p>
+      <p>{props.kit}</p>
       <div className='divider'>DIVIDER</div>
-      <p>{descontos}</p>
+      <p>{props.descontos}</p>
       <div className='divider'>DIVIDER</div>
-      <p>{nivel}</p>
+      <p>{props.nivel}</p>
       <div className='divider'>DIVIDER</div>
       <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
     </div>
     </div>
   )
 }
+
+export default CardPlanos
