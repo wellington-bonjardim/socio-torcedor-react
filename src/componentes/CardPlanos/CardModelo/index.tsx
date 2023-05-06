@@ -1,3 +1,4 @@
+import styles from './CardModelo.module.css';
 import listaConteudo from 'json/ConteudoCard.json';
 
 type Props = typeof listaConteudo[0]
@@ -7,20 +8,20 @@ export default function CardModelo(props: Props) {
 
   return (
     <div>
-      <div className='principal'>
-        <div className='card'>
+      <div className={styles.principal}>
+        <div className={styles.card}>
         <h5>{plano}</h5>
         <h1>{preco}</h1>
-        <div className='divider'>DIVIDER</div>
+        <div className={styles.divider}></div>
         <p>{valorIngresso}</p>
-        <div className='divider'>DIVIDER</div>
+        <div className={styles.divider}></div>
         <p>{kit}</p>
-        <div className='divider'>DIVIDER</div>
+        <div className={styles.divider}></div>
         <p>{descontos}</p>
-        <div className='divider'>DIVIDER</div>
+        <div className={styles.divider}></div>
         <p>{nivel}</p>
-        <div className='divider'>DIVIDER</div>
-        <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
+        <div>DIVIDER</div>
+        <a href="https://camisa7.botafogo.com.br/" target="_blank" rel="noreferrer"><button>VIRE SÓCIO!</button></a>
       </div>
       </div>
     </div>
