@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "KIT ANUAL",
+    "icone": "/assets/gift.png",
+    "descricaoIcone": "Icone de presente",
+    "beneficios": "Receba em sua casa nosso kit anual com itens exclusivos para celebrar a nossa paixão!"
+  },
+  {
+    "id": 2,
+    "titulo": "DESCONTOS",
+    "icone": "/assets/carrinho.png",
+    "descricaoIcone": "Icone de desconto",
+    "beneficios": "Até 20% de desconto na compra de produtos em nossa loja online oficial!"
+  },
+  {
+    "id": 3,
+    "titulo": "CASHBACK",
+    "icone": "/assets/cashback.png",
+    "descricaoIcone": "Icone de dinheiro de volta",
+    "beneficios": "Conheça nossos parceiros e tenha descontos e cashback em diversas lojas online!"
+  }
+]

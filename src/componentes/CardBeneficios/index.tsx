@@ -1,5 +1,12 @@
+import CardModelo from 'componentes/CardBeneficios/CardModelo';
+import listaBeneficios from 'json/CardModeloBeneficios.json';
+
 export default function CardBeneficios() {
   return (
-    <h1>CARDS BENEFÍCIOS</h1>
+    <div>
+      {listaBeneficios.map(beneficio => (
+        <CardModelo key={beneficio.id} {...beneficio} />
+      ))}
+    </div>
   )
 }
