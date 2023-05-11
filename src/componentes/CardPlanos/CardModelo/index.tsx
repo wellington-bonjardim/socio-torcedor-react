@@ -7,21 +7,18 @@ export default function CardModelo(props: Props) {
   const { plano, preco, valorIngresso, kit, descontos, nivel } = props
 
   return (
-    <div className={styles.principal}>
-      <div className={styles.card}>
-        <h5>{plano}</h5>
-        <h1>{preco}</h1>
-        <div className={styles.divider}></div>
-        <p>{valorIngresso}</p>
-        <div className={styles.divider}></div>
-        <p>{kit}</p>
-        <div className={styles.divider}></div>
-        <p>{descontos}</p>
-        <div className={styles.divider}></div>
-        <p>{nivel}</p>
-        <div className={styles.divider}></div>
-        <a href="https://camisa7.botafogo.com.br/" target="_blank" rel="noreferrer"><button>VIRE SÓCIO!</button></a>
-      </div>
+    <div className={styles.card}>
+      <h5>{plano}</h5>
+      <h1>{preco}</h1>
+      <div className={styles.divider}></div>
+      <p>{valorIngresso}</p>
+      <div className={styles.divider}></div>
+      <p>{kit}</p>
+      <div className={styles.divider}></div>
+      <p>{descontos}</p>
+      <div className={styles.divider}></div>
+      <p>{nivel}</p>
+      <a href="https://camisa7.botafogo.com.br/" target="_blank" rel="noreferrer"><button>VIRE SÓCIO!</button></a>
     </div>
   )
 }

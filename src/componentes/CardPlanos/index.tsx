@@ -4,7 +4,7 @@ import styles from './CardPlanos.module.css';
 
 export default function CardPlanos() {
   return (
-    <div className={styles.geral}>
+    <div className={styles.principal}>
       {listaConteudo.map(conteudo => (
         <CardModelo key={conteudo.id} {...conteudo} />
       ))}
