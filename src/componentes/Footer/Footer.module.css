@@ -2,15 +2,12 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  margin: 30px;
-  padding: 5px 20px;
-  margin: 0 auto;
   /* min-width: 100vw; */
 } 
 
 .social {
-  margin: 0 auto;
-  padding: 20px;
+  margin: -15px auto;
+  padding: 10px;
 }
 
 .hover {
@@ -22,14 +19,13 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 
-p {
+.paragrafo {
   margin: 10px;
+  padding: 10px;
 }
 
-a {
+.linkSocial {
   margin-right: 20px;
 }
-/*RESOLVER O PROBLEMA DA LARGURA DO FOOTER PARA DISPOSITIVOS MENORES!*/
-/*RESOLVER PROBLEMA DE DISTÂNCIA DOS ÍCONES PARA O TEXTO! ESTÃO MUITO LONGE UM DO OUTRO!*/
 
-/*ESTÁ OCORRENDO PROBLEMA DE SOBREPOSIÇÃO DOS PARÁGRAFOS!! AO MUDAR O p QUE CORRESPONDE SOMENTE AO FOOTER, TODOS OS p DOS CARDS TAMBÉM ESTÃO SENDO ALTERADOS!!!*/
+/*RESOLVER O PROBLEMA DA LARGURA DO FOOTER PARA DISPOSITIVOS MENORES! - PENDENTE*/ 
