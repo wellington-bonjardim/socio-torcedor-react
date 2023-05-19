@@ -4,6 +4,43 @@
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  box-sizing: border-box;
+}
+
+@media (max-width: 780px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 980px) {
+  .principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1080px) {
+  .principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1081px) {
+  .principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
 }
 
 /* DIMINUIR A DISTÂNCIA ENTRE O HEADER E OS CARDS! */
