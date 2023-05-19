@@ -27,7 +27,7 @@ p {
 }
 
 .card:hover {
-  transform: scale(1.07);
+  transform: scale(1.03);
   opacity: 1;
   border: 1px solid black;
   background: gold;
