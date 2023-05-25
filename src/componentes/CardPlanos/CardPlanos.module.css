@@ -1,7 +1,7 @@
 .principal {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
   min-height: 100vh;
   box-sizing: border-box;
@@ -13,6 +13,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -42,5 +44,3 @@
     box-sizing: border-box;
   }
 }
-
-/* DIMINUIR A DISTÂNCIA ENTRE O HEADER E OS CARDS! */

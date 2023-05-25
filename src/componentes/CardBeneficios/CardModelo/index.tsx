@@ -11,7 +11,9 @@ export default function CardModelo(props: Props) {
       <h5>{titulo}</h5>
       <img src={icone} alt={descricaoIcone} />
       <p>{beneficios}</p>
-      <a href="https://camisa7.botafogo.com.br/" target="_blank" rel="noreferrer"><button>APROVEITE!</button></a>
+      <a href="https://camisa7.botafogo.com.br/" target="_blank" rel="noreferrer">
+        <button className={styles.botaoAproveite}>APROVEITE!</button>
+      </a>
     </div>
   )
 }

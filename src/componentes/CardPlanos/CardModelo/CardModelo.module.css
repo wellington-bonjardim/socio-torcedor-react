@@ -6,11 +6,23 @@
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
   width: 300px;
   margin: 10px;
-  padding: 30px;
+  padding: 10px 20px;
   text-align: center;
   border: 1px solid white;
   opacity: 0.9;
   transition: all 0.3s ease-in-out;
+  
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+}
+
+.ultimoItem {
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -25,14 +37,15 @@ h3 {
 }
 
 .divider {
-  margin: 2px;
   border-bottom: 1px solid black;
 }
 
-button {
+.botaoVireSocio {
   width: 100%;
   padding: 7px;
-  margin-top: 10px;
+  display: block;
+  position: absolute;
+  bottom: 0;
   font-weight: 600;
   border: none;
   border-radius: 5px;
@@ -46,7 +59,7 @@ button {
   background: gold;
 }
 
-button:hover {
+.botaoVireSocio:hover {
   background: black;
   color: white;
   cursor: pointer;
@@ -57,12 +70,11 @@ button:hover {
   .card {
     background-color: #ccc;
     color: black;
-    /* box-sizing: border-box; */
     border-radius: 7px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     width: 300px;
     margin: 10px;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     border: 1px solid white;
     opacity: 0.9;
