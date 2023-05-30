@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# PROJETO SÓCIO TORCEDOR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+Este projeto teve como objetivo refatorar um outro projeto meu desenvolvido com HTML, CSS e JavaScript que você pode acessar em: [Projeto Antigo](https://github.com/wellington-bonjardim/seja-socio).
 
-In the project directory, you can run:
+A finalidade do projeto continua sendo a mesma: apresentar aos usuários os planos de sócio torcedor fornecidos pelo Botafogo de Futebol e Regatas e todas as suas vantagens. 
 
-### `npm start`
+As maiores diferenças e vantagens desta refatoração em relação ao projeto anterior estão na estrutura do código, onde desta vez o projeto foi desenvolvido em React e TypeScript e também na implementação da responsividade no projeto, algo que não existe no anterior.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ao desenvolver este projeto, foi possível aperfeiçoar os conhecimentos nas seguintes situações:
+- Evoluir na utilização do TypeScript;
+- Desenvolver uma SPA(Single Page Application) com react-router-dom;
+- Trabalhar com rotas aninhadas;
+- Trabalhar com rotas dinâmicas;
+- Aperfeiçoar a utilização de componentes;
+- Melhorar a implementação do CSS através da responsividade;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Descrição do projeto
 
-### `npm test`
+## Layout web
+![Web index](https://github.com/wellington-bonjardim/socio-torcedor-react/blob/master/public/assets/socio_torcedor.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Tecnologias utilizadas
 
-### `npm run build`
+- REACT | TYPESCRIPT
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Autor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Wellington Bonjardim
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- LinkedIn: [Wellington Bonjardim](https://www.linkedin.com/in/wellington-bonjardim/)
